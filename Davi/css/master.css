@@ -1,0 +1,48 @@
+/*CSS Tag Body*/
+body{
+  background-color: darkgray;
+  color: darkslategray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*CSS Class H1*/
+.h1{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+
+/*CSS Tag Links Colors*/
+a:link{ /*Link Normal*/
+  color:green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited{ /*Links Visitados*/
+  color: darkcyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover{ /*Mouse Sobre*/
+  color:red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active{ /*Mouse Click*/
+  color: brown;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*CSS Class Buttons/Links*/
+.button:link,.button:visited{ /*Link Normal e Visitado*/
+  background-color: pink;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button:hover,.button:active{ /*Mouse Sobre e Click*/
+  background-color: red;
+}
